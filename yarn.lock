@@ -1991,7 +1991,7 @@
     "@strapi/utils" "4.5.6"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@^4.3.4", "@strapi/strapi@4.5.6":
+"@strapi/strapi@^4.0.7", "@strapi/strapi@^4.3.4", "@strapi/strapi@4.5.6":
   "integrity" "sha512-SdEg2SXuwVdGaA7HJNWwBvXpTYmFTr+1iErDAKy3dU9D/htqvhHd2fbf5ngNILUncdQBCxYsPzM1XxuglZDW1Q=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.5.6.tgz"
   "version" "4.5.6"
@@ -2062,7 +2062,7 @@
     "prettier" "2.7.1"
     "typescript" "4.6.2"
 
-"@strapi/utils@4.5.6":
+"@strapi/utils@^4.0.7", "@strapi/utils@4.5.6":
   "integrity" "sha512-kSu7AIoJm0q6uQxiS94FA8huQ0VIvd4B38hDRZLv/BKEOORgfDTflxyxCOW1YIrvuCzJunWC2oZGCphOjMH8jQ=="
   "resolved" "https://registry.npmjs.org/@strapi/utils/-/utils-4.5.6.tgz"
   "version" "4.5.6"
@@ -10079,6 +10079,11 @@
   "resolved" "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz"
   "version" "3.0.0"
 
+"slugify@^1.6.5":
+  "integrity" "sha512-8mo9bslnBO3tr5PEVFzMPIWwWnipGS0xVbYf65zxDqfNwmzYn1LpiKNrR6DlClusuvo+hDHd1zKpmfAe83NQSQ=="
+  "resolved" "https://registry.npmjs.org/slugify/-/slugify-1.6.5.tgz"
+  "version" "1.6.5"
+
 "smart-buffer@^4.2.0":
   "integrity" "sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg=="
   "resolved" "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz"
@@ -10337,6 +10342,13 @@
     "reactstrap" "8.4.1"
     "styled-components" "^5.2.3"
     "whatwg-fetch" "^3.6.2"
+
+"strapi-plugin-slugify@^2.3.2":
+  "integrity" "sha512-gZbZ+jdZYmSjjCdNR5WEhAcF7cokAX3wGlz7+vVgGpsp/ayvZACyWQzyqgfHbbqzjVtPFOi40Clp0OeRtfCHGg=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-slugify/-/strapi-plugin-slugify-2.3.2.tgz"
+  "version" "2.3.2"
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
 
 "strapi-plugin-upload@^3.1.6":
   "integrity" "sha512-m6Qf8ECpzc4ABSIn96d5APcIFdelByhuqN82vJg5RqKriCu67VAqDYoaDNtKmPofceIlQYgewuwcuWvwALNlew=="

@@ -1,6 +1,4 @@
-module.exports = ({ env }) => (
-    
-    {
+module.exports = ({ env }) => ({
   // ...
   upload: {
     config: {
@@ -16,6 +14,17 @@ module.exports = ({ env }) => (
         delete: {},
       },
     },
+    // ...
   },
-  // ...
+  slugify: {
+    enabled: true,
+    config: {
+      contentTypes: {
+        events: {
+          field: "slug",
+          references: "name",
+        },
+      },
+    },
+  },
 });
