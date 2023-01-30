@@ -1974,12 +1974,12 @@
     "@strapi/utils" "4.5.6"
     "sendmail" "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@^4.5.6":
-  "integrity" "sha512-gkr5vemKmIBWn8VPo6pyvvYPLfJ8i0g4rBvKgoKJi11BeMt3zNyVnoC7q6XSvVxF6KlJheN88xKo/srwCgQE+w=="
-  "resolved" "https://registry.npmjs.org/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.5.6.tgz"
-  "version" "4.5.6"
+"@strapi/provider-upload-cloudinary@^4.6.0":
+  "integrity" "sha512-yZiMymsujYJbeg5n5YiZT9SnbhrIM5o0HukDgFCLfZV8Va/kESaWA5BV5cFoqUNFgqTElro6a96dcBnTOu9dbA=="
+  "resolved" "https://registry.npmjs.org/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.6.0.tgz"
+  "version" "4.6.0"
   dependencies:
-    "@strapi/utils" "4.5.6"
+    "@strapi/utils" "4.6.0"
     "cloudinary" "^1.30.1"
     "into-stream" "^5.1.0"
 
@@ -2066,6 +2066,17 @@
   "integrity" "sha512-kSu7AIoJm0q6uQxiS94FA8huQ0VIvd4B38hDRZLv/BKEOORgfDTflxyxCOW1YIrvuCzJunWC2oZGCphOjMH8jQ=="
   "resolved" "https://registry.npmjs.org/@strapi/utils/-/utils-4.5.6.tgz"
   "version" "4.5.6"
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    "date-fns" "2.29.3"
+    "http-errors" "1.8.1"
+    "lodash" "4.17.21"
+    "yup" "0.32.9"
+
+"@strapi/utils@4.6.0":
+  "integrity" "sha512-zJfcGVlGLVGTs4Lc5OH+g4vO/+MD5UA6DzMzlSvJ1gsObYpA/a+IMRIMG90nfEKZ9R52LLdaYyGU8ALzxulEmQ=="
+  "resolved" "https://registry.npmjs.org/@strapi/utils/-/utils-4.6.0.tgz"
+  "version" "4.6.0"
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     "date-fns" "2.29.3"
