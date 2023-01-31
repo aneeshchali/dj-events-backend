@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -40,13 +40,8 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "user": {
       "type": "relation",
